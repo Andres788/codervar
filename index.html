@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esto es una página web</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1 id="header">//Coder<span id="logo">Var</span>//</h1>
+                    <nav id="nav">
+
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">Inicio</a></li>
+                            <li><a href="#sobremi">Sobre mi</a></li>
+                            <li><a href="#Contáctame">Servicios</a></li>
+                            <li><a href="#portafolios">Portafolio</a></li>
+                        </ul>
+                    </nav>
+                    <!--Iconos de menu responsive-->
+                    <div id="icono-nav">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!--Iconos de las redes sociales-->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+        </div>
+        </header>
+
+        <main>
+
+            <!--Esto es un comentario-->
+            <div class="header-text">
+                <h1>HOLA! 👋 Soy Andres Vargas</h1>
+                <h2>INGENIERO DE SISTEMAS Y TECNOLOGO DESARROLLADOR SOFTWARE</h2>
+            </div>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <a class="btn-portafolio" href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </main>
+        </div>
+    </section>
+    <!--Seccion Sobre mi-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="../html/img/Sin título (300 × 400 px).png" alt="" />
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Andres Vargas</span></h2>
+            <h3>Desarrollador Software</h3>
+            <p class="description">
+                Soy <strong> Full-stack-JavaScript Developer </strong> de Colombia que
+                busca ser parte del impacto que la tecnología tiene el desarrollo en
+                nuestras actividades diarias. Me emociona aprender nuevas tecnologías y
+                dar soluciones que se acomoden a las necesidades de cualquier
+                usuario/cliente.
+            </p>
+            <p>
+                Me fascina ver el gran horizonte de la programación y no encontrar un
+                final, es extraordinario saber que una simple idea es lo único que
+                necesitas para navegar en - este interminable horizonte de oportunidades.
+            </p>
+            <a href="#">Descargar</a>
+        </div>
+    </section>
+
+    <!--Seccion Servicios-->
+    <article id="skills" class="skills">
+        <h2 class="title"> <i class="fa-solid fa-greater-than"></i> Mis habilidades</h2>
+        <hr class="sub-t">
+        <section>
+            <h2 class="title-skill"><i class="fa-solid fa-arrow-right"></i> Lenguajes de programación</h2>
+            <ul>
+                <li class="js-l"><i class="fa-brands fa-square-js"></i> Javascript</li>
+                <li class="ht-l"><i class="fa-brands fa-html5"></i> HTML5 y CSS3</li>
+                <li class="ph-l"><i class="fa-brands fa-php"></i> PHP</li>
+
+            </ul>
+        </section>
+        <section>
+            <h2 class="title-skill"> <i class="fa-solid fa-arrow-right"></i> Base de datos</h2>
+            <ul>
+                <li class="bd1"><i class="fa-solid fa-database"></i> Microsoft SQL Server</li>
+                <li class="bd2"><i class="fa-solid fa-inbox"></i> MySql</li>
+                <li class="bd3"><i class="fa-solid fa-file-code"></i> MongoDB</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="title-skill"><i class="fa-solid fa-arrow-right"></i> Adicionales</h2>
+            <ul>
+                <li class="adi1"><i class="fa-brands fa-git-alt"></i> Git</li>
+                <li class="adi2"><i class="fa-brands fa-figma"></i> Figma</li>
+                <li class="adi3"><i class="fa-solid fa-pen-nib"></i> Photoshop</li>
+                <li class="adi4"><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+            </ul>
+        </section>
+    </article>
+    <section class="skills">
+        <h3 class="title-skill">Idiomas</h3>
+        <ul>
+            <li>🥇Español (nativo)</li>
+            <li>🥈Inglés (intermedio)</li>
+        </ul>
+    </section>
+
+    </section>
+    <footer id="footer">
+        <div class="footer-section">
+            <h3>Puedes encontrarme en:</h3>
+            <a href="https://www.linkedin.com/in/codervar/">LinkedIn</a>
+            <br />
+            <a href="https://github.com/Andres788">Github</a>
+            <br />
+            <a href="./about.html">Sobre mi</a>
+
+            <h1>Contáctame</h1>
+            <div class="footer-container">
+                <form action="/server" method="get">
+                    <div class="form-group">
+                        <label for="name">Nombre: </label>
+                        <input id="name" name="name" type="text" placeholder="Ingrese su nombre completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="Ingrese su email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="type">Tipo de proyecto</label>
+                        <select name="type" id="type" required>
+                            <option disabled selected value="">Seleccione uno</option>
+                            <option value="website">Website</option>
+                            <option value="webapp">Aplicación web</option>
+                            <option value="mobile">Aplicación mobile</option>
+                            <option value="design">Diseño web</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">
+                            Descripción
+                        </label>
+                        <textarea name="description" id="description" cols="30" rows="10" required> </textarea>
+                        <div class="help">Escribe una descripción del proyecto de al menos 500 palabras</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="terms">
+                            <input id="terms" name="terms" type="checkbox" required>
+                            <span>Acepto los terminos y condiciones</span>
+                        </label>
+                    </div>
+                    <button class="btn-btn">Enviar</button>
+                </form>
+            </div>
+            <br />
+
+            <div class="footer-copy">© 2023 Desarrollado por Codervar</div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
